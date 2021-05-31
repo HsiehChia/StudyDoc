@@ -7,6 +7,7 @@ module.exports = {
         ['meta', {name: 'keywords', content: '前端程序员的个人博客，分享前端知识以及程序代码'}],
     ],
     themeConfig: {
+        lastUpdated: '上一次更新时间',
         logo: '/assets/img/logo.png',
         nav: [
             {text: '首页', link: '/'},
