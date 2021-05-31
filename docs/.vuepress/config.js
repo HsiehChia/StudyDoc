@@ -1,8 +1,13 @@
 module.exports = {
-    title: "HsiehChia's blog",
+    title: "Jane's blog",
     description: "Jane's personal blog",
+    head: [
+        ['link', {ref: 'icon', href: '/favicon.ico'}],
+        ['meta', {name: 'author', content: 'jane'}],
+        ['meta', {name: 'keywords', content: '前端程序员的个人博客，分享前端知识以及程序代码'}],
+    ],
     themeConfig: {
-        logo: '/assets/logo.png',
+        logo: '/assets/img/logo.png',
         nav: [
             {text: '首页', link: '/'},
             {text: '技术分类', link: '/cate/'},
